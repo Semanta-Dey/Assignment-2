@@ -68,3 +68,50 @@ font-family: Quicksand;
 font-size: 20px;
 font-weight: 600;
 }
+
+
+/* main section */
+
+main{
+    width: 85vw;
+    /* background-color: aqua; */
+    margin: 20px auto;
+
+}
+banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+banner img{
+    height: 80vh;
+}
+banner h1{
+    font-family: Quicksand;
+font-size: 50px;
+font-weight: 700;
+margin-bottom: 0px;
+}
+#empower{
+    color:rgb(254, 163, 1);
+}
+#toward-vision{
+    color:rgb(1, 172, 253);
+}
+banner p{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+margin-top: 5px;
+}
+banner button{
+    background-color: rgb(17, 17, 17);
+    border: none;
+    padding: 10px 28px;
+    border-radius: 9px;
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 700;
+}
