@@ -128,43 +128,29 @@ banner button:hover{
 }
 
 /* Responsiveness */
-
-/* @media screen and (max-width:576px){
-    nav h1, .navbar,.contact{
-        visibility: hidden;
-}
-.contact img{
-    visibility: visible;
-}
-} */
-
-/* Responsiveness */
 @media screen and (max-width: 576px) {
-    /* Hide h1 and navbar but keep .contact visible */
     nav h1, .navbar , .contact button{
-        display: none; /* Use display to hide the elements completely */
+        display: none;
     }
-    
-    /* Ensure the .contact div remains visible */
     .contact {
-        display: flex; /* Keep the .contact section visible */
+        display: flex;
         align-items: center;
-        justify-content: flex-end; /* Align items to the right */
-        gap: 10px; /* Add some spacing between the button and the image */
+        justify-content: flex-end; 
+        gap: 10px;
     }
-
-    /* Show the img within the .contact class */
     .contact img {
         visibility: visible;
-        display: block; /* Ensure it is displayed */
-        width: 30px; /* Set a responsive size for the image */
-        height: auto; /* Maintain aspect ratio */
-        cursor: pointer; /* Add a pointer cursor for interactivity */
+        display: block;
+        width: 30px; 
+        height: auto; 
+        cursor: pointer;
     }
-
-    /* Optional: Adjust button size for smaller screens */
     .contact button {
-        padding: 8px 30px; /* Make the button smaller for small screens */
-        font-size: 18px; /* Adjust font size */
+        padding: 8px 30px; 
+        font-size: 18px; 
+    }
+    .nav{
+        height: 100px;
+        border: 2px solid orange;
     }
 }
