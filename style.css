@@ -149,8 +149,8 @@ banner button:hover{
         padding: 8px 30px; 
         font-size: 18px; 
     }
-    .nav{
-        height: 100px;
+    nav{
+        /* height: 100px; */
         border: 2px solid orange;
     }
 }
