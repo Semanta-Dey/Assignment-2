@@ -58,6 +58,9 @@ font-family: Quicksand;
 font-size: 20px;
 font-weight: 500;
 }
+.contact img{
+    visibility: hidden;
+}
 .contact button{
     border-radius: 12px;
 background: rgb(254, 163, 1);
@@ -67,6 +70,10 @@ color: rgb(255, 255, 255);
 font-family: Quicksand;
 font-size: 20px;
 font-weight: 600;
+cursor: pointer;
+}
+.contact button:hover{
+    box-shadow: 5px 4px 5px salmon;
 }
 
 
@@ -114,4 +121,50 @@ banner button{
     color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 700;
+cursor: pointer;
+}
+banner button:hover{
+    box-shadow: 5px 5px 5px rgb(130, 129, 129);
+}
+
+/* Responsiveness */
+
+/* @media screen and (max-width:576px){
+    nav h1, .navbar,.contact{
+        visibility: hidden;
+}
+.contact img{
+    visibility: visible;
+}
+} */
+
+/* Responsiveness */
+@media screen and (max-width: 576px) {
+    /* Hide h1 and navbar but keep .contact visible */
+    nav h1, .navbar , .contact button{
+        display: none; /* Use display to hide the elements completely */
+    }
+    
+    /* Ensure the .contact div remains visible */
+    .contact {
+        display: flex; /* Keep the .contact section visible */
+        align-items: center;
+        justify-content: flex-end; /* Align items to the right */
+        gap: 10px; /* Add some spacing between the button and the image */
+    }
+
+    /* Show the img within the .contact class */
+    .contact img {
+        visibility: visible;
+        display: block; /* Ensure it is displayed */
+        width: 30px; /* Set a responsive size for the image */
+        height: auto; /* Maintain aspect ratio */
+        cursor: pointer; /* Add a pointer cursor for interactivity */
+    }
+
+    /* Optional: Adjust button size for smaller screens */
+    .contact button {
+        padding: 8px 30px; /* Make the button smaller for small screens */
+        font-size: 18px; /* Adjust font size */
+    }
 }
