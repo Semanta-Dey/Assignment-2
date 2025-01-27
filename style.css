@@ -549,35 +549,38 @@ padding-bottom: 20px;
     }
     .story-card1{
         display: none;
+    } */
+
+
+    .story-card {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium-sized screens */
     }
+}
+
+.story-card1 {
+    display: none; /* Hides the first story card as required */
+}
+
+.story-card img {
+    width: 100%;
+    height: auto; /* Ensure images are responsive */
+    border-radius: 8px; /* Smooth corners for better aesthetics */
+}
+
+.story-card button {
+    font-size: 14px; /* Smaller buttons for mobile */
+    padding: 8px 12px; /* Adjust button padding for touch devices */
+}
+
+
+
+
+
+
     footer{
         flex-direction: column;
         height: 100%;
-    } */
-
-    .story-card {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
     }
-    
-    .story-card1 {
-        display: none; /* Properly hide the first story card */
-    }
-    
-    .story-card img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-    
-    .story-card button {
-        font-size: 14px; /* Adjust button size for smaller screens */
-    }
-    
-
-
-
-
 
     .kids,.about{
         width: 100%;
@@ -593,3 +596,12 @@ padding-bottom: 20px;
         padding-bottom: 19px;
     }
 }
+
+
+
+
+
+
+
+
+
