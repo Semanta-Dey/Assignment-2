@@ -544,7 +544,7 @@ padding-bottom: 20px;
         font-size: 31px;
     }
 
-    .story-card{
+    /* .story-card{
         grid-template-columns: repeat(2 ,1fr);
     }
     .story-card1{
@@ -553,7 +553,32 @@ padding-bottom: 20px;
     footer{
         flex-direction: column;
         height: 100%;
+    } */
+
+    .story-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
+    
+    .story-card1 {
+        display: none; /* Properly hide the first story card */
+    }
+    
+    .story-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .story-card button {
+        font-size: 14px; /* Adjust button size for smaller screens */
+    }
+    
+
+
+
+
+
     .kids,.about{
         width: 100%;
     }
