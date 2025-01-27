@@ -235,7 +235,7 @@ font-weight: 700;
 
 .stories{
 background-image: url("assets/bg.png");
-background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+background: linear-gradient(0.00deg, rgba(255, 162, 0, 0.306),rgba(255, 255, 255, 0.3) 100%);
 height: 125vh;
 background-size: cover;
 padding: 30px 7%;
@@ -422,9 +422,67 @@ background: rgb(149, 178, 38);
     color: white;
 }
 
+/* Footer */
 
+footer{
+    background-color:rgb(1, 172, 253);
+    height: 140px;
+    /* padding: 123px 229px 174px 140px; */
+    padding: 120px 7%;
+    display: flex;
+}
+.kids{
+    width: 33%;
+}
+.icon{
+    display: flex;
+}
+.kids h2{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 22px;
+font-weight: 700;
+}
+.kids p{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 19px;
+font-weight: 400;
+padding-top: 20px;
+}
 
-
+.about{
+    padding-left: 140px;
+    width: 33%;
+}
+.about li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+padding-top: 14px;
+}
+.about li a{
+    text-decoration: none;
+    
+}
+.about h3{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 700;
+padding-bottom: 15px;
+}
+.about li a:visited{
+    color: white;
+}
+.social h2{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+padding-bottom: 20px;
+}
 
 
 
@@ -487,7 +545,7 @@ background: rgb(149, 178, 38);
     }
 
     .story-card{
-        grid-template-columns: repeat(2 ,2fr);
+        grid-template-columns: repeat(2 ,1fr);
     }
     .story-card1{
         display: none;
