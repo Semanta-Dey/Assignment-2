@@ -550,4 +550,21 @@ padding-bottom: 20px;
     .story-card1{
         display: none;
     }
+    footer{
+        flex-direction: column;
+        height: 100%;
+    }
+    .kids,.about{
+        width: 100%;
+    }
+    .about{
+        padding-left: 0px;
+    }
+    .about h3{
+        padding-top: 20px;
+    }
+    .social h2{
+        padding-top: 23px;
+        padding-bottom: 19px;
+    }
 }
