@@ -164,14 +164,12 @@ padding: 13px 0px;
 }
 .box p{
     color: rgb(128, 128, 128);
-font-family: Raleway;
 font-size: 15.09px;
 font-weight: 500;
 padding-bottom: 24px;
 }
 .box button{
     color: rgb(100, 200, 255);
-font-family: Quicksand;
 font-size: 15.09px;
 font-weight: 700;
 border: none;
@@ -194,7 +192,6 @@ background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0)
 }
 .standard-box2 button{
     color: rgb(240, 170, 0);
-    font-family: Quicksand;
     font-size: 15.09px;
     font-weight: 700;
 }
@@ -209,7 +206,6 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 .standard-box3 button{
     color: rgb(135, 0, 255);
-font-family: Quicksand;
 font-size: 15.09px;
 font-weight: 700;
 }
@@ -276,8 +272,7 @@ cursor: pointer;
 }
 .stories .card{
     border-radius: 9px;
-    /* width: 22vw; */
-    /* border: 2px solid black; */
+
     background-color: rgb(255, 255, 255);
 }
 .card img{
@@ -286,7 +281,7 @@ cursor: pointer;
 }
 .story-card1{
     grid-area: story-card1;
-    /* border: 2px solid black; */
+
     width: 45vw;
     position: relative;
 }
@@ -537,7 +532,6 @@ padding-bottom: 20px;
         padding: 30px 18px;   
     }
     .standard-box1{
-        /* width: 100%; */
         padding-right: 30px;
     }
     .standard-curriculum h1{
@@ -574,13 +568,4 @@ footer{
         padding-top: 23px;
         padding-bottom: 19px;
     }
-
 }
-
-
-
-
-
-
-
-
